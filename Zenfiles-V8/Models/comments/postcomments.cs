@@ -1,0 +1,18 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Zenfiles.Models.comments
+{
+    public class postcomments
+    {
+        [Required]
+        public string? comment { get; set; }
+        [Required]
+        public int ObjectId { get; set; }
+        [Required]
+        public string? VaultGuid { get; set; }
+        [Required]
+        public int ObjectTypeId { get; set; }
+        public int UserID { get; set; }
+    }
+}
+

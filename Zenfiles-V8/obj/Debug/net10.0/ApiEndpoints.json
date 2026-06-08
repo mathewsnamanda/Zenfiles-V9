@@ -1,0 +1,1688 @@
+[
+  {
+    "ContainingType": "Zenfiles.Controllers.CommentsController",
+    "Method": "Get",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ObjectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.CommentsController",
+    "Method": "Post",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postcomments",
+        "Type": "Zenfiles.Models.comments.postcomments",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles_V8.Controllers.ExternalObjectsController",
+    "Method": "GetExternalObjects",
+    "RelativePath": "api/ExternalObjects/GetExternalObjects/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles_V8.Controllers.ExternalObjectsController",
+    "Method": "GetExternalObjects",
+    "RelativePath": "api/ExternalObjects/GetExternalObjects/{VaultGuid}/{ObjectTypeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.MfilesObjectsController",
+    "Method": "Get",
+    "RelativePath": "api/MfilesObjects/ClassProps/{VaultGuid}/{ObjectTypeID}/{ClassID}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.MfilesObjectsController",
+    "Method": "GetAsync",
+    "RelativePath": "api/MfilesObjects/GetObjectClasses/{VaultGuid}/{Objectid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Objectid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.MfilesObjectsController",
+    "Method": "GetVaultsObjectsAsync",
+    "RelativePath": "api/MfilesObjects/GetVaultsObjects/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectCheckoutController",
+    "Method": "Checkout",
+    "RelativePath": "api/ObjectCheckout/Checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectCheckoutmodel",
+        "Type": "Zenfiles.Models.ObjectCheckoutmodel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectCheckoutController",
+    "Method": "UndoCheckout",
+    "RelativePath": "api/ObjectCheckout/UndoCheckout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectCheckoutmodel",
+        "Type": "Zenfiles.Models.ObjectCheckoutmodel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "AdminUnDeleteObject",
+    "RelativePath": "api/ObjectDeletion/AdminUnDeleteObject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteobject",
+        "Type": "Zenfiles.Models.adminundelete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "DeleteObjectAsync",
+    "RelativePath": "api/ObjectDeletion/DeleteObject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteobject",
+        "Type": "Zenfiles.Models.deleteobject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "GetAllDeletedObjects",
+    "RelativePath": "api/ObjectDeletion/GetAllDeletedObjects/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "GetDeletedObject",
+    "RelativePath": "api/ObjectDeletion/GetDeletedObject/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "GetObjectViewProps",
+    "RelativePath": "api/ObjectDeletion/GetDeletedObjectViewProps/{VaultGuid}/{ObjectId}/{ClassId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectDeletionController",
+    "Method": "UnDeleteObjectAsync",
+    "RelativePath": "api/ObjectDeletion/UnDeleteObject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteobject",
+        "Type": "Zenfiles.Models.deleteobject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "AddObjectFilesAsync",
+    "RelativePath": "api/objectinstance/AddObjectFiles/{VaultGuid}/{ObjectId}/{UserID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "formFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "ApproveAssignmentAsync",
+    "RelativePath": "api/objectinstance/ApproveAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approveAsignment",
+        "Type": "Zenfiles.Models.objversions.ApproveAssignment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "CombinePdfObjectFiles",
+    "RelativePath": "api/objectinstance/CombinePdfObjectFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mfilesCreate",
+        "Type": "ZenFiles.Controllers.CombinedMfilesCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "ConvertToPdf",
+    "RelativePath": "api/objectinstance/ConvertToPdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertmodal",
+        "Type": "Zenfiles.Models.objversions.Convertmodal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DownloadActualFile",
+    "RelativePath": "api/objectinstance/DownloadActualFile/{VaultGuid}/{ObjectId}/{ClassId}/{fileID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/objectinstance/DownloadFile/{VaultGuid}/{ObjectId}/{ClassId}/{fileID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DownloadOtherFilesAsync",
+    "RelativePath": "api/objectinstance/DownloadOtherFiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DSSfileupdateBackend",
+    "RelativePath": "api/objectinstance/DSSfileupdateBackend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "versionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DSSPostObjectFile",
+    "RelativePath": "api/objectinstance/DSSPostObjectFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFile",
+        "Type": "ZenFiles.Models.UpdateFile1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "DSSSelfSignPostObjectFile",
+    "RelativePath": "api/objectinstance/DSSSelfSignPostObjectFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFile",
+        "Type": "ZenFiles.Models.UpdateFile1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "FilesUploadAsync",
+    "RelativePath": "api/objectinstance/FilesUploadAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "GetObjectFilesAsync",
+    "RelativePath": "api/objectinstance/GetObjectFiles/{VaultGuid}/{ObjectId}/{ClassId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "GetObjectViewProps",
+    "RelativePath": "api/objectinstance/GetObjectViewProps/{VaultGuid}/{ObjectId}/{ObjectTypeId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "GetSpecificObject",
+    "RelativePath": "api/objectinstance/GetSpecificObject/{VaultGuid}/{ObjectTypeId}/{ObjectId}/{ClassId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "LinkedObjects",
+    "RelativePath": "api/objectinstance/LinkedObjects/{VaultGuid}/{ObjectTypeId}/{ObjectId}/{ClassId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "ModifyObjectClassAsync",
+    "RelativePath": "api/objectinstance/ModifyObjectClass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modifyClass",
+        "Type": "Zenfiles_V7.Models.ModifyClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "ObjectCreation",
+    "RelativePath": "api/objectinstance/ObjectCreation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mfilesCreate",
+        "Type": "ZenFiles.Models.MfilesCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "RemoveFile",
+    "RelativePath": "api/objectinstance/RemoveFile/{VaultGuid}/{ObjectId}/{fileID}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "Search",
+    "RelativePath": "api/objectinstance/Search/{VaultGuid}/{SearchPhrase}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SearchPhrase",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "UpdateObjectFileAsync",
+    "RelativePath": "api/objectinstance/UpdateObjectFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "versionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectinstanceController",
+    "Method": "UpdateObjectPropsAsync",
+    "RelativePath": "api/objectinstance/UpdateObjectProps",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateObjectProps",
+        "Type": "ZenFiles.Models.UpdateObjectProps",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectstractureController",
+    "Method": "CreateObjectAdmin",
+    "RelativePath": "api/objectstracture/CreateObjectAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mfilesObject",
+        "Type": "ZenFiles.Models.MfilesObject1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectstractureController",
+    "Method": "DeleteObject",
+    "RelativePath": "api/objectstracture/DeleteObject/{ObjectID}/{VaultGuid}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectstractureController",
+    "Method": "DeleteProps",
+    "RelativePath": "api/objectstracture/DeleteObjectProps",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prop5",
+        "Type": "ZenFiles.Models.prop5",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectstractureController",
+    "Method": "GetClassName",
+    "RelativePath": "api/objectstracture/GetClassName/{ClassID}/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClassID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.objectstractureController",
+    "Method": "GetObjectName",
+    "RelativePath": "api/objectstracture/GetObjectName/{ObjectID}/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectVersionsController",
+    "Method": "GetObjectFileVersion",
+    "RelativePath": "api/ObjectVersions/GetObjectFileVersion/{VaultGuid}/{ObjectId}/{ObjectVersion}/{FileId}/{ClassId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectVersion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "FileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectVersionsController",
+    "Method": "GetObjectVesions",
+    "RelativePath": "api/ObjectVersions/GetObjectVesions/{VaultGuid}/{ObjectId}/{ClassId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.ObjectVersionsController",
+    "Method": "RollbackToVersion",
+    "RelativePath": "api/ObjectVersions/RollbackToVersion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postversion",
+        "Type": "Zenfiles.Models.objversions.postversion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.SetAllPropsController",
+    "Method": "Post",
+    "RelativePath": "api/SetAllProps",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setUpdateProps",
+        "Type": "Zenfiles.Models.setprops.SetUpdateProps",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.SetAllPropsController",
+    "Method": "GetNewClassProps",
+    "RelativePath": "api/SetAllProps/GetNewClassProps/{VaultGuid}/{ObjectId}/{ClassId}/{NewClassID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "NewClassID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.SetAllPropsController",
+    "Method": "GetTransitionClasses",
+    "RelativePath": "api/SetAllProps/GetTransitionClasses/{VaultGuid}/{ObjectId}/{ClassId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.TemplatesController",
+    "Method": "GetClassTemplate",
+    "RelativePath": "api/Templates/GetClassTemplate/{VaultGuid}/{ClassID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.TemplatesController",
+    "Method": "GetClassTemplateProps",
+    "RelativePath": "api/Templates/GetClassTemplateProps/{VaultGuid}/{ClassID}/{ObjectId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.TemplatesController",
+    "Method": "GetTemplate",
+    "RelativePath": "api/Templates/GetTemplate/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.TemplatesController",
+    "Method": "ObjectCreationAsync",
+    "RelativePath": "api/Templates/ObjectCreation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mfilesCreate",
+        "Type": "Zenfiles.Models.templates.template",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.UserAccountsController",
+    "Method": "AddUser",
+    "RelativePath": "api/UserAccounts/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Zenfiles.Models.login.CreateLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.UserAccountsController",
+    "Method": "DomainAuth",
+    "RelativePath": "api/UserAccounts/DomainAuth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "TestAuthentication.models.login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.UserAccountsController",
+    "Method": "RemoveUser",
+    "RelativePath": "api/UserAccounts/RemoveVaultUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Zenfiles.Models.users.remoaveuser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.UserAccountsController",
+    "Method": "SyncAccounts",
+    "RelativePath": "api/UserAccounts/SyncAccounts/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.UserAccountsController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/UserAccounts/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Zenfiles.Models.users.remoaveuser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ValuelistInstanceController",
+    "Method": "GetAsync",
+    "RelativePath": "api/ValuelistInstance/{VaultGuid}/{propertyid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "propertyid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ValuelistInstanceController",
+    "Method": "AddValuelistItem",
+    "RelativePath": "api/ValuelistInstance/AddValuelistItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "valuelistPost",
+        "Type": "Zenfiles.Models.Valuelist.ValuelistPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ValuelistInstanceController",
+    "Method": "Search",
+    "RelativePath": "api/ValuelistInstance/Search/{VaultGuid}/{Searchphrase}/{PropertyID}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Searchphrase",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.VaultsController",
+    "Method": "Post",
+    "RelativePath": "api/Vaults",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "ZenFiles.Models.VaultClassp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.VaultsController",
+    "Method": "getAsync",
+    "RelativePath": "api/Vaults/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.VaultsController",
+    "Method": "GetVaultGuidAsync",
+    "RelativePath": "api/Vaults/GetVaultGuid/{VaultGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "GetAssigned",
+    "RelativePath": "api/Views/GetAssigned/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "GetObjectsInView",
+    "RelativePath": "api/Views/GetObjectsInView",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ViewId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "GetRecentAsync",
+    "RelativePath": "api/Views/GetRecent/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "Get",
+    "RelativePath": "api/Views/GetViewObjects/{VaultGuid}/{viewid}/{ObjectIds}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "viewid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectIds",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "GetViewPropObjects",
+    "RelativePath": "api/Views/GetViewPropObjects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getviewContents",
+        "Type": "Zenfiles.Models.views.GetpropertyContent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenFiles.Controllers.ViewsController",
+    "Method": "GetViews",
+    "RelativePath": "api/Views/GetViews/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetObjectInWorkflowStates",
+    "RelativePath": "api/WorkflowsInstance/GetObjectInWorkflowStates/{VaultGuid}/{WorkflowId}/{StateId}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WorkflowId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "StateId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetObjectworkflowAllstates",
+    "RelativePath": "api/WorkflowsInstance/GetObjectworkflowAllstates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getObjectstates",
+        "Type": "Zenfiles.Models.GetObjectstates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetObjectworkflowstate",
+    "RelativePath": "api/WorkflowsInstance/GetObjectworkflowstate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getObjectstates",
+        "Type": "Zenfiles.Models.GetObjectstates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetVaultsWorkflows",
+    "RelativePath": "api/WorkflowsInstance/GetVaultsObjectClassTypeWorkflows/{VaultGuid}/{UserID}/{ObjectTypeid}/{ClassTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectTypeid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ClassTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetVaultsWorkflows",
+    "RelativePath": "api/WorkflowsInstance/GetVaultsWorkflows/{VaultGuid}/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VaultGuid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "GetworkflowAgeingReport",
+    "RelativePath": "api/WorkflowsInstance/GetworkflowAgeingReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workflowAgeingReport",
+        "Type": "Zenfiles_V8.Models.WorkflowAgeingReport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "SetObjectstate",
+    "RelativePath": "api/WorkflowsInstance/SetObjectstate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setObjectstates",
+        "Type": "Zenfiles.Models.Workflow.SetObjectstates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Zenfiles.Controllers.WorkflowsInstanceController",
+    "Method": "SetObjectWorkflowstate",
+    "RelativePath": "api/WorkflowsInstance/SetObjectWorkflowstate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setObjectstates",
+        "Type": "Zenfiles.Models.Workflow.SetObjectWorkflowstates",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

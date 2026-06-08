@@ -1,0 +1,4989 @@
+﻿{
+    "Rules": [
+        {
+            "Guid": "ebb51292-7758-47d0-ae50-52f785d546b6",
+            "Name": "PD Annual leave is Yes; start and end date required",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1036",
+                        "Operator": "Is",
+                        "Boolean": true
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1039",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1040",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1043",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1044",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1045",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1346",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "456e5be8-139e-4873-bdca-de1348e7479f",
+            "Name": "PD Annual leave is No; start and end date are hidden",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1036",
+                        "Operator": "Is",
+                        "Boolean": false
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1039",
+                        "IsRequired": false,
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1040",
+                        "IsRequired": false,
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1043",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1044",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1045",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1346",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "4e3307ce-c17c-4682-84a1-d1fc32f8552a",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1038",
+                        "Operator": "IsNotNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1041",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1042",
+                        "IsReadOnly": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1347",
+                        "IsRequired": true
+                    }
+                ]
+            },
+            "Name": "Other leave type is notnull; start and end date are required"
+        },
+        {
+            "Guid": "faf6e9c4-3bea-4ce4-94d7-ddbcd88a596d",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1038",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1041",
+                        "IsRequired": false,
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1042",
+                        "IsReadOnly": false,
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1347",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "Other leave type is null; start and end date are hidden"
+        },
+        {
+            "Guid": "a20e34b4-e4e1-4bc6-a0a6-51baceae4658",
+            "Name": "PD Annual leave is No, Other leave type, days is required",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1036",
+                        "Operator": "Is",
+                        "Boolean": false
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1038",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1347",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "170c10f5-67d4-4898-a803-a4a1a34be0df",
+            "Name": "PD Hide leave type, employee and created date for leave form",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1046",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1021",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Filter": {
+                "Class": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "Guid": "9025e275-2c53-4d8c-a31a-a6604c324337",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{25E56616-E17A-4C43-AF67-92334118F503}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 1 - User makes leave application",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1052",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1090",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1092",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "c7fd16ba-4fcd-4f19-af94-28c2cd4f7a93",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - No State - User makes leave application",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1052",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1090",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1092",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "2f599622-13a2-4700-a9c2-079c5e4f03f4",
+            "Name": "PD Days Taken is Required after HR approval",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1090",
+                        "Operator": "Is",
+                        "Boolean": true
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1052",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "b02d9fb3-9f38-443a-9020-17405b52fd60",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{73D3F399-293E-4BCA-9303-FD2D45049AB0}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 2 - Review by HR",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1052",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1090",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1092",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "072d637e-245a-4734-9d56-53923ab16a93",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{565CCA6F-FBFE-494F-B672-90C09A48C4FA}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 2.5 - Signing of leave by staff",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1052",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1090",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "1092",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "a35e495e-836d-4a62-9973-84a0d04ffb29",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{808193F0-C9D3-4B83-9035-DCCA328EABD8}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 3 Review by HOD",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1092",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "feebbc48-9f69-4540-9073-cc25eb4b2734",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{D6532A11-B850-4849-B367-C747FEE7E46D}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 3.5 Signing of leave form by HR",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "051b215a-2e61-4bf1-8fbc-14d0e8062127",
+            "Filter": {
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {}
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{E7BD9E9A-E622-4218-ADE4-5A2E8E65CCE8}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Name": "WF Leave Processing - State 4 Review by CEO",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1091",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e271b373-0c32-48ff-92da-656461860a02",
+            "Name": "WF Appraisal - No State",
+            "Filter": {
+                "Class": [
+                    "3"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1026",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1027",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1029",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1028",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1095",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e1412126-287b-48c9-97ec-0b613113e22f",
+            "Name": "WF Appraisal - State 1 Self Appraisal",
+            "Filter": {
+                "Class": [
+                    "3"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{E1034D9B-B1D8-47E3-9871-3AB54F766430}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1027",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1029",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1028",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "93881259-9443-43d1-9ee3-0923df1effdc",
+            "Name": "WF Appraisal - State 2 Supervisor Appraisal",
+            "Filter": {
+                "Class": [
+                    "3"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{DDDB425F-4001-473E-90A8-6AC61399C838}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1029",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1028",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "83a82ddf-1585-4f13-8134-10729553dccf",
+            "Name": "WF Travel - No State",
+            "Filter": {
+                "Class": [
+                    "7"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1106",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e256c5e2-59f8-454d-a6a8-1247d8fad58e",
+            "Name": "WF Travel - State 1 - Travel Requisition from User",
+            "Filter": {
+                "Class": [
+                    "7"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{A9A84399-6133-4177-992E-AAA7FC979A04}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "a52fb70a-df27-4e94-a023-e2592f4cd544",
+            "Name": "WF Travel - State 2 - Approval by CEO",
+            "Filter": {
+                "Class": [
+                    "7"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{159FCB55-7B11-4F55-A10C-39FAE835429C}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1048",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "395f6850-e3a4-4667-bc6e-eda04803df40",
+            "Filter": {
+                "Class": [
+                    "10"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1021",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1095",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Training - No State"
+        },
+        {
+            "Guid": "816ff0bc-daf5-4e44-9275-c4394267e209",
+            "Filter": {
+                "Class": [
+                    "10"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{0A21D7F5-D226-42F2-95C9-78845920853C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{CCCB3E4C-A5B2-4A01-8153-CCCC4377C321}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1091",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Training - State 1 and Back to requisitioner "
+        },
+        {
+            "Guid": "6c5cf4a1-b80b-476b-89b7-1bad3da9f7c7",
+            "Filter": {
+                "Class": [
+                    "10"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6415DAB9-8D57-4873-9470-DAE68CB80E43}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{6415DAB9-8D57-4873-9470-DAE68CB80E43}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1091",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            },
+            "Name": "WF Training - State 2 Approval by CEO"
+        },
+        {
+            "Guid": "84bb2a73-ba9d-4f8c-a8f0-719efe58e868",
+            "Name": "WF Premium Payment- No State",
+            "Filter": {
+                "Class": [
+                    "11"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1142",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "9e0bfeb8-ac46-4d6e-bfac-d97c0ce80ab6",
+            "Name": "WF Premium Payment- State 1,2,3",
+            "Filter": {
+                "Class": [
+                    "11"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{29C3D070-31EB-4C74-92E3-63F697ED6B13}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{44F73138-0281-4420-84B0-806F2C44BF98}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{FBD43D16-57BE-4A11-A182-1A206537E2E6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1142",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e33ea3b7-a501-43af-87b2-7fc191db4768",
+            "Name": "WF Premium Payment- State 4",
+            "Filter": {
+                "Class": [
+                    "11"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{29C3D070-31EB-4C74-92E3-63F697ED6B13}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{44F73138-0281-4420-84B0-806F2C44BF98}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{FBD43D16-57BE-4A11-A182-1A206537E2E6}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{AC0F4820-95D9-4D50-A701-B1D5036CC6F1}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1142",
+                        "IsHidden": false,
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        },
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "678dba6e-5262-4c90-9d5d-d5fdcb557ea7",
+            "Name": "WF Premium Payment- State 5",
+            "Filter": {
+                "Class": [
+                    "11"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{29C3D070-31EB-4C74-92E3-63F697ED6B13}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{44F73138-0281-4420-84B0-806F2C44BF98}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{FBD43D16-57BE-4A11-A182-1A206537E2E6}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{495323EE-4EB9-49CA-A540-ED4FA514A2FF}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "392718b0-e784-4ff1-865a-0aec7faa17af",
+            "Name": "WF Premium Payment- State 6",
+            "Filter": {
+                "Class": [
+                    "11"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{29C3D070-31EB-4C74-92E3-63F697ED6B13}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{44F73138-0281-4420-84B0-806F2C44BF98}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{FBD43D16-57BE-4A11-A182-1A206537E2E6}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{3DDB6D6A-6704-40A4-8FB5-3C60CD67285A}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1136",
+                        "IsHidden": false,
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        },
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "2bb047fd-7a8b-4a99-b74f-2899315e4512",
+            "Name": "PD Hide Created Date",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "a807137d-9862-4a28-93c5-079cbdf896a7",
+            "Filter": {
+                "Class": [
+                    "14"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{1DCCCA6C-E9E8-420C-B6CD-6308D2040764}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1152",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1159",
+                        "IsRequired": true
+                    }
+                ]
+            },
+            "Name": "WF Recruitment - State Populate Vacancy Details"
+        },
+        {
+            "Guid": "ef450491-ac19-42f4-8390-77d9187bab7d",
+            "Name": "WF Recruitment - No State - Applicant",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1166",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1158",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1242",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1243",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "64f62181-0dbf-4efa-9dc0-066eac4ee257",
+            "Name": "WF Recruitment - State 4 Shortlist and Call for Interviews- Applicant Shortlisted is Required",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{7FFC094B-7A95-4345-BE9A-C6505614A4BE}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1166",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1158",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1242",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1243",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "152c4f74-367f-4dfa-be54-09797f253c65",
+            "Name": "WF Recruitment - States 5 to 8 - Offer Accepeted is Hidden",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{84D65C3A-28A0-498B-9C29-A8DC6BA1FBF3}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{98DA395C-B19F-475A-921D-2FAAEC6462D0}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{30044636-A218-4D50-9F90-9E771A15F832}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F26821BE-CA94-47DC-B0F8-9EE4E9A8A0B7}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1158",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0b1a9cd4-7bc2-46be-a133-e0fe24218b02",
+            "Name": "WF Recruitment - States 9 - Placement",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{84D65C3A-28A0-498B-9C29-A8DC6BA1FBF3}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{98DA395C-B19F-475A-921D-2FAAEC6462D0}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{30044636-A218-4D50-9F90-9E771A15F832}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F26821BE-CA94-47DC-B0F8-9EE4E9A8A0B7}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{9B9EFA36-3DB8-42FA-B2EB-2ECF3971AD31}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1158",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "5b54511f-2d94-4fc6-97d8-96d36a063afe",
+            "Name": "WF Renewals/New Offer- State is Null",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1074",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1050",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1075",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1056",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1079",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1055",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1073",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1076",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "f087383c-3260-4f41-8b91-aa1ff0e1d672",
+            "Name": "PD Hide CEO Approval for Reversal- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D7C9465A-1253-487B-9969-1FF57AEEB24C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{50E3E707-A374-4603-8730-73E9BCC4B402}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8F6509A1-793B-4214-9CD9-BB6A6130E3F9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E8617322-ECDA-4D1C-9073-86B609641049}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5747A174-0461-438A-A78C-66876208E5A7}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20D31487-CB9A-4D67-958C-90A674034D02}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{2AB391BC-06E0-42A7-B4E5-9BE8441B2973}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{64A2DCBB-FBF7-4D0F-A9C6-F3FB5E0ED115}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{77482543-80DC-4B1E-8CEC-8B5F925D631D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6C9C30C1-E880-40AB-8F85-9046596B0797}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F02722E0-D3ED-4795-B87C-B80B0B930DDF}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1074",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6c47617d-5e66-4623-b4b7-fe198eeab17e",
+            "Name": "PD CEO Approval for Reversal RadioButton",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{5BC6F13F-9EFC-4D62-B46E-3FEE01391037}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1074",
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "68d16d39-9148-4acc-a048-4cd39007b4d8",
+            "Name": "PD Hide Reason for Reversal- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D7C9465A-1253-487B-9969-1FF57AEEB24C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{50E3E707-A374-4603-8730-73E9BCC4B402}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8F6509A1-793B-4214-9CD9-BB6A6130E3F9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E8617322-ECDA-4D1C-9073-86B609641049}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5747A174-0461-438A-A78C-66876208E5A7}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20D31487-CB9A-4D67-958C-90A674034D02}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{77482543-80DC-4B1E-8CEC-8B5F925D631D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6C9C30C1-E880-40AB-8F85-9046596B0797}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F02722E0-D3ED-4795-B87C-B80B0B930DDF}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1076",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ba8d6481-7b40-4012-9cf9-5281b56c7d94",
+            "Name": "PD Approval of Reversal RadioButton",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{2AB391BC-06E0-42A7-B4E5-9BE8441B2973}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1075",
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e4e971bb-4fef-44fc-829a-5f598cad384f",
+            "Name": "PD Hide Approval of Reversal- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D7C9465A-1253-487B-9969-1FF57AEEB24C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{50E3E707-A374-4603-8730-73E9BCC4B402}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8F6509A1-793B-4214-9CD9-BB6A6130E3F9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E8617322-ECDA-4D1C-9073-86B609641049}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5747A174-0461-438A-A78C-66876208E5A7}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20D31487-CB9A-4D67-958C-90A674034D02}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{77482543-80DC-4B1E-8CEC-8B5F925D631D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6C9C30C1-E880-40AB-8F85-9046596B0797}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F02722E0-D3ED-4795-B87C-B80B0B930DDF}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1075",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "faa637b4-6b95-44af-8a1f-6b97a8acace5",
+            "Name": "PD HOD Approval of Reversal RadioButton",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{64A2DCBB-FBF7-4D0F-A9C6-F3FB5E0ED115}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1050",
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "38e1bc85-5dd3-4b6f-a79b-27eee4d91833",
+            "Name": "PD Hide HOD Approval of Reversal- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D7C9465A-1253-487B-9969-1FF57AEEB24C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{50E3E707-A374-4603-8730-73E9BCC4B402}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8F6509A1-793B-4214-9CD9-BB6A6130E3F9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E8617322-ECDA-4D1C-9073-86B609641049}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5747A174-0461-438A-A78C-66876208E5A7}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20D31487-CB9A-4D67-958C-90A674034D02}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{77482543-80DC-4B1E-8CEC-8B5F925D631D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6C9C30C1-E880-40AB-8F85-9046596B0797}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F02722E0-D3ED-4795-B87C-B80B0B930DDF}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{2AB391BC-06E0-42A7-B4E5-9BE8441B2973}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1050",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "5675a2f8-de12-42a0-bdf1-78a3ceae44f9",
+            "Name": "PD Hide Reason for reopening- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D7C9465A-1253-487B-9969-1FF57AEEB24C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{50E3E707-A374-4603-8730-73E9BCC4B402}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8F6509A1-793B-4214-9CD9-BB6A6130E3F9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E8617322-ECDA-4D1C-9073-86B609641049}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5747A174-0461-438A-A78C-66876208E5A7}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20D31487-CB9A-4D67-958C-90A674034D02}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{2AB391BC-06E0-42A7-B4E5-9BE8441B2973}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{64A2DCBB-FBF7-4D0F-A9C6-F3FB5E0ED115}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{77482543-80DC-4B1E-8CEC-8B5F925D631D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6C9C30C1-E880-40AB-8F85-9046596B0797}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F02722E0-D3ED-4795-B87C-B80B0B930DDF}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{5BC6F13F-9EFC-4D62-B46E-3FEE01391037}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{38CC3731-BF94-43D0-940A-B6839C1DC312}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1073",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "9ddbe1bf-8ab1-4ab1-be2d-4de453331a9e",
+            "Name": "PD Hide Supervisor Approval- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1056",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "b1735c49-fca3-40d8-8c2d-39b952964510",
+            "Name": "PD Supervisor Approval RadioButton- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1056",
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ed151c5c-00fd-4473-abd2-4f116b7a4e5b",
+            "Name": "PD Hide HOD Approval- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "427b77ec-5afd-4869-be76-eeb84fc3c4d2",
+            "Name": "PD HOD Approval RadioButton- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1057",
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "31a9c488-7afc-4bde-9504-021e59d7664e",
+            "Name": "WF Petty Cash Requisition - No State",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1215",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "4e816c80-5164-45e4-88b6-29dd53078b1b",
+            "Name": "WF Petty Cash Requisition  State 5, 1",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "b7db1daa-c709-4370-86f6-5d64a8a9f096",
+            "Name": "WF Petty Cash Requisition  State 2",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{A8C50B9D-811A-451E-AD64-BB3F44DEBC0F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "185be33c-d84c-4e7a-a647-da7882fe3029",
+            "Name": "WF Petty Cash Requisition  State 3",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{C667AE96-AB89-41C1-8454-74D1A27200AB}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0fe7684d-170a-4cc0-992d-36c3f134815a",
+            "Name": "WF Petty Cash Requisition  State 4",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{2559CB6A-27F8-493D-A022-4E2176DB96CF}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "d8372ab8-546d-4dd8-a23a-21bd92a5b85a",
+            "Name": "WF Petty Cash Requisition  State 6",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{0CB6F617-57A0-445F-86CD-D479F450E0BA}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "1213",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1214",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ae17cdbd-409b-4331-b763-7ebb5666d7e9",
+            "Name": "WF Petty Cash Requisition  State 7",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{46230EC4-3BBA-4BBB-A260-1B472076460B}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "1228",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "b340eb47-ddd2-4755-935c-6a02794b1af3",
+            "Name": "WF Petty Cash Requisition  State 8",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{4DD2A459-EAB6-42E3-80A5-5BED8713E195}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "d8363934-ebc5-433f-8920-e02210c35fc6",
+            "Name": "WF Petty Cash Requisition  State 9",
+            "Filter": {
+                "Class": [
+                    "25"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{F1A7C116-3F74-4B95-9199-9485072F449C}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{197E9D65-7861-4048-BF92-C89CF9603136}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{E4DD63A6-D143-42B2-89D2-8A0A88A8FBBD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F7781EBC-9F44-4083-A708-52A68B64EBCA}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{82F60FAB-65C7-4D9B-A100-351832305EA9}"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "{F000D74E-63C7-42E0-B0B1-77B62BA636A9}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ac4bc7fb-afc8-4ddb-a888-85d452f18b48",
+            "Name": "WF Petty Cash Replenishment State 0",
+            "Filter": {
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ],
+                "Class": [
+                    "31"
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "dbadcd09-d850-47dc-9e70-6c702b031910",
+            "Name": "WF Petty Cash Replenishment State 1",
+            "Filter": {
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{98258262-617C-4C66-98F8-F92172A316B7}"
+                            }
+                        }
+                    }
+                ],
+                "Class": [
+                    "31"
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "254f1087-cd52-41a7-8dd6-fa5b8000cba2",
+            "Name": "WF Petty Cash Replenishment State 2",
+            "Filter": {
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{24E74F37-E6AE-4FC9-87AC-0C4856D5741C}"
+                            }
+                        }
+                    }
+                ],
+                "Class": [
+                    "31"
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "bdfdb153-aad5-4593-ab4f-8770e366b5cc",
+            "Name": "WF Petty Cash Replenishment State 3",
+            "Filter": {
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{957B281E-B155-4F15-B8CB-C6992D92829C}"
+                            }
+                        }
+                    }
+                ],
+                "Class": [
+                    "31"
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1107",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "fb55f5d7-46db-4be6-9f30-90b2ac1c98ce",
+            "Name": "WF Recruitment - State 5 Conduct Interview",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{84D65C3A-28A0-498B-9C29-A8DC6BA1FBF3}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1158",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1243",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "7dcb00b1-b037-48f5-9e90-583a00c9ea0d",
+            "Name": "WF Recruitment - State 6 Background Check",
+            "Filter": {
+                "Class": [
+                    "13"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{98DA395C-B19F-475A-921D-2FAAEC6462D0}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1158",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "d2f03ffc-66e3-4b54-b89c-94d082b293ef",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1257",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1245",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1258",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1256",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - No State"
+        },
+        {
+            "Guid": "69d11ed4-a416-46ab-a128-62b4d1af4cdb",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{A0A5AE46-6997-4B2F-8FCB-6E4A393F3E26}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{9DFAD4A0-635B-4018-8711-1887B008F078}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1257",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1245",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1258",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 1 & Review Request"
+        },
+        {
+            "Guid": "b6ce08e0-8c1e-4100-8021-1cfc3c7101ae",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{4C7DBFF2-D7BB-4CC0-8146-53D1421603C4}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1257",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1245",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1258",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 2"
+        },
+        {
+            "Guid": "d6c9c37f-6d5c-428c-841b-0f33c1a0aa93",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{33BDD1A8-29A1-47D8-AE41-C7EAD0603E7D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{DE39C2E9-647D-4844-885B-6E63CDF5F3D5}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1245",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1258",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 3 & 4"
+        },
+        {
+            "Guid": "ef9dcab3-7d3a-4691-a77b-2c06fad50cde",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{022BB913-1DF6-4C5A-AD11-5CEF4C393489}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1258",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 5"
+        },
+        {
+            "Guid": "16693efa-fc15-48b4-ad43-a75b3313b9c0",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{9C38BE11-F73C-4A02-9490-40D4A1B8D220}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1258",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 5.5"
+        },
+        {
+            "Guid": "baec75f8-34f5-46f7-8bec-605b79e5805a",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{ADDB263E-47E9-4EFA-834F-7CF00820D3F2}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1250",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1085",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1253",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1246",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1247",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1255",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1107",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 6"
+        },
+        {
+            "Guid": "7335dcfa-2adc-44f7-a1b2-cf75980f6cce",
+            "Filter": {
+                "Class": [
+                    "33"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{FDD8FC8C-74A7-4DF3-AE33-7C06C84FB03F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1107",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            },
+            "Name": "WF Payment Processing - Procured - State 7"
+        },
+        {
+            "Guid": "84682cda-f0f6-41e4-aabb-7c8680954204",
+            "Name": "WF Inward Claims No state",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1276",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1130",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1056",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e3da3c41-6562-46d4-8c4a-65947df8621b",
+            "Name": "WF Inward Claims State 1,2",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{4DB19DC2-ED52-4B32-82C4-088F92FDB17E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6DE9232B-F980-4D04-86DB-2AB05A3D3762}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1276",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1130",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1056",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6a40ec5a-5d40-4f4c-b24c-af6b00b0a454",
+            "Name": "WF Inward Claims State 3",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{39A1894A-51DA-4D69-B3F6-581574885C17}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1276",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1130",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1056",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "10e73109-2a03-4181-a1e1-39a8841545ad",
+            "Name": "WF Inward Claims State 4",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{35BB3E9C-55DA-4F39-8D94-288025F10EA8}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1056",
+                        "IsHidden": false,
+                        "IsRequired": true,
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    },
+                    {
+                        "Property": "1057",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "5ac75a59-8d63-4340-b9d7-c99fe8a39562",
+            "Name": "WF Inward Claims State 5",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{ADFAF990-6882-43D1-9D3D-7B7E95B35737}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1057",
+                        "IsHidden": false,
+                        "IsRequired": true,
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    },
+                    {
+                        "Property": "1048",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "40c77409-a96e-4fc8-a7c5-0803837e8c0b",
+            "Name": "WF Inward Claims State 6",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{A98ABFD4-A9A2-4C7B-BDDD-0E3F5C9882A3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1048",
+                        "IsHidden": false,
+                        "IsRequired": true,
+                        "Control": {
+                            "Type": "RadioButton",
+                            "Parameters": {
+                                "HideNullItem": true
+                            }
+                        }
+                    },
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "8806089d-db28-4f79-9a86-14710325699d",
+            "Name": "WF Inward Claims State 7",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{4FB5B01A-119F-4040-BD9E-C28F113AB8F9}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1136",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "40ca8c22-59c8-4037-bbd6-d6eeb4d105ce",
+            "Name": "WF Inward Claims State 8",
+            "Filter": {
+                "Class": [
+                    "37"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{D3FFFE4A-B42C-4A0F-8C81-82AE05A6C661}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1136",
+                        "IsHidden": false,
+                        "IsRequired": true,
+                        "Control": {
+                            "Parameters": {
+                                "HideNullItem": true
+                            },
+                            "Type": "RadioButton"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "8c8538f4-ae24-4911-b874-82d9259c2044",
+            "Name": "WF Payment Processing Non Procured - No State",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1359",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1115",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1256",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "1de42473-e312-4e68-a67e-bc3ed2556bd0",
+            "Name": "WF Payment Processing Non Procured - State 1",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{382F17EC-5EFD-4C76-894D-6D1945C6F169}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1359",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1115",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "803a3eda-c684-4a57-8aa8-190e4ad36481",
+            "Name": "WF Payment Processing Non Procured - State 2",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{3A3B7272-F1AB-4A4E-9988-47B3AAFC71C3}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1359",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1115",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e7cbba04-6972-435d-9cbb-d617909c259c",
+            "Name": "WF Payment Processing Non Procured - State 3",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{1630192B-B17F-4889-8993-2A71C3CE1FA2}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1270",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1115",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1359",
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "42cf5c04-d079-4563-bef1-0447009a2b77",
+            "Name": "WF Payment Processing Non Procured - State 4",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{29F1DB8F-D049-45EE-92E8-579537F6877B}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1211",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1217",
+                        "IsHidden": false,
+                        "IsReadOnly": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1236",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1233",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "1115",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "1a1c72ef-23ac-4c1c-b5dd-f5c810b7ab81",
+            "Name": "WF Payment Processing Non Procured - State 5",
+            "Filter": {
+                "Class": [
+                    "34"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "{C6543D7F-AAA1-405E-9961-25E20F525B8B}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1115",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "878ce6bf-9613-40a1-9d26-0abfb9588227",
+            "Name": "PD Formated Document Date & Created Date is Hidden",
+            "Filter": {
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1200",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1053",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "a356732a-a3bd-47a0-b9df-b675e1189607",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1345",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1131",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1134",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "PD Hide Transaction file, Amount & Account for U/W docs",
+            "Filter": {
+                "Class": [
+                    "0"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1141",
+                        "Operator": "IsNot",
+                        "SSLU": {
+                            "item": {
+                                "id": "{EDB6C6E9-9162-4D5C-AEFB-4453D212F3A3}"
+                            }
+                        },
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "id": "{09394239-361A-4B3B-91E7-5AC70FF75675}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "{765046C5-BE4B-4757-B0B1-9EEBFE89A212}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "{EDB6C6E9-9162-4D5C-AEFB-4453D212F3A3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0b8bef11-eb2f-43d2-8ba2-25354a3a55de",
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1345",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1131",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1134",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "PD Hide Transaction file, Amount & Account for Claim docs",
+            "Filter": {
+                "Class": [
+                    "39"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1294",
+                        "Operator": "IsNot",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "id": "{7C903A9E-AE46-4EE8-B9C7-ADB90B84DB92}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "id": "{97ACFBAA-2062-45AB-B9B8-B08086288FD6}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "1912d727-d7db-4f29-9f8d-fdebdafc8563",
+            "Name": "PD Hide SICS Business ID- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1079",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6c3232f7-e73f-47d9-b0c9-f18841801564",
+            "Name": "PD Hide Premium Payment Warranty date- Renewals/New Offer",
+            "Filter": {
+                "Class": [
+                    "6"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "{6139106E-61CF-4BDC-B797-4B064D56193E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{ECBF0B99-C49E-47B4-868C-AF924182B7C9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{F5BAB397-BD5C-4A43-9B37-025D7927F7CB}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A5E5414F-9856-4ACA-86EC-7D444AE9B176}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8EDE433B-0A87-48E6-ADBB-48550FF2E3E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{29B0ED89-1FE3-4D0D-A60C-61423B9CC510}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{A506CAD9-1197-4A84-AEFB-758DACEDCAE1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{20B7659E-0DEC-4C41-9017-B09EE2860C0E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{3874BF9C-E116-4173-97AD-69295325C322}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{D35B802B-2E48-4ABF-BC40-B1A6CC4A6A2A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{7EDA954D-26DF-4DCC-94D9-C4127BB4CB72}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{63A632BA-F4EB-4A7C-B171-B2DC04A13B4E}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{8B850A71-8134-44D5-A8D4-01DFF80C0755}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{584789B3-73AE-465C-9880-60FC5EFACD6A}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{C5DFB9A3-5750-4083-A27D-B530F5E27DED}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{025728F7-0955-4425-B7C0-F7F243F60FE9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{6E6B4687-D808-4717-9060-12B4FF9B48CD}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{495864F2-6DD1-4404-9AB2-7BF0DAE638E9}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{4C384CE4-7A43-4F2A-9EF4-257F8B0432E1}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{89D7EF7F-FF19-4911-A25C-A084F961DB9D}"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "{950E7F41-63D7-4245-BD09-6026943C640F}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1079",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0dbda9a0-0e36-4deb-8727-e7e119dd7763",
+            "Filter": {
+                "Class": [
+                    "50"
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1357",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "Name": "PD IBTID is hidden"
+        },
+        {
+            "Guid": "432b9879-964c-4860-a2c0-7ee55cb4c09c",
+            "Name": "PD Procurement Document Type Hide Amount if Tax Clearance Certificate is selected",
+            "Filter": {
+                "Class": [
+                    "40"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1300",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "id": "{47F5E13A-EEAC-436A-992D-FAB144454DC0}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1134",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        }
+    ],
+    "PropertyGroups": [],
+    "Version": "1.1"
+}

@@ -1,0 +1,3803 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Zenfiles-V8",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Comments": {
+      "get": {
+        "tags": [
+          "Comments"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectTypeId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Comments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/postcomments"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/postcomments"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/postcomments"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ExternalObjects/GetExternalObjects/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "ExternalObjects"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ExternalObjects/GetExternalObjects/{VaultGuid}/{ObjectTypeID}": {
+      "get": {
+        "tags": [
+          "ExternalObjects"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectTypeID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MfilesObjects/GetVaultsObjects/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "MfilesObjects"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MfilesObjects/GetObjectClasses/{VaultGuid}/{Objectid}/{UserID}": {
+      "get": {
+        "tags": [
+          "MfilesObjects"
+        ],
+        "parameters": [
+          {
+            "name": "Objectid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MfilesObjects/ClassProps/{VaultGuid}/{ObjectTypeID}/{ClassID}/{UserID}": {
+      "get": {
+        "tags": [
+          "MfilesObjects"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ObjectTypeID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectCheckout/Checkout": {
+      "post": {
+        "tags": [
+          "ObjectCheckout"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectCheckout/UndoCheckout": {
+      "post": {
+        "tags": [
+          "ObjectCheckout"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjectCheckoutmodel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/GetDeletedObject/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/GetAllDeletedObjects/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/DeleteObject": {
+      "post": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/UnDeleteObject": {
+      "post": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/deleteobject"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/AdminUnDeleteObject": {
+      "post": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/adminundelete"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/adminundelete"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/adminundelete"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectDeletion/GetDeletedObjectViewProps/{VaultGuid}/{ObjectId}/{ClassId}/{UserID}": {
+      "get": {
+        "tags": [
+          "ObjectDeletion"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/UpdateObjectFile": {
+      "put": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "ClassId",
+                  "fileid",
+                  "objectid",
+                  "UserID",
+                  "VaultGuid",
+                  "versionID"
+                ],
+                "type": "object",
+                "properties": {
+                  "objectid": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ClassId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "fileid": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "VaultGuid": {
+                    "type": "string"
+                  },
+                  "UserID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "versionID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "formFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "objectid": {
+                  "style": "form"
+                },
+                "ClassId": {
+                  "style": "form"
+                },
+                "fileid": {
+                  "style": "form"
+                },
+                "VaultGuid": {
+                  "style": "form"
+                },
+                "UserID": {
+                  "style": "form"
+                },
+                "versionID": {
+                  "style": "form"
+                },
+                "formFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DSSfileupdateBackend": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "objectid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "fileid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "versionID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DSSSelfSignPostObjectFile": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DSSPostObjectFile": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFile1"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/GetObjectFiles/{VaultGuid}/{ObjectId}/{ClassId}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DownloadFile/{VaultGuid}/{ObjectId}/{ClassId}/{fileID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fileID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DownloadActualFile/{VaultGuid}/{ObjectId}/{ClassId}/{fileID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fileID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/DownloadOtherFiles": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fileID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/ConvertToPdf": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Convertmodal"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Convertmodal"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Convertmodal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/LinkedObjects/{VaultGuid}/{ObjectTypeId}/{ObjectId}/{ClassId}/{UserID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/GetSpecificObject/{VaultGuid}/{ObjectTypeId}/{ObjectId}/{ClassId}/{UserID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/RemoveFile/{VaultGuid}/{ObjectId}/{fileID}/{UserID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fileID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/GetObjectViewProps/{VaultGuid}/{ObjectId}/{ObjectTypeId}/{UserID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/UpdateObjectProps": {
+      "put": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateObjectProps"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateObjectProps"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateObjectProps"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/ApproveAssignment": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveAssignment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveAssignment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApproveAssignment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/ObjectCreation": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/CombinePdfObjectFiles": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CombinedMfilesCreate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CombinedMfilesCreate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CombinedMfilesCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/FilesUploadAsync": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "formFiles": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "formFiles": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/AddObjectFiles/{VaultGuid}/{ObjectId}/{UserID}": {
+      "put": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "formFiles": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "formFiles": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/Search/{VaultGuid}/{SearchPhrase}/{UserID}": {
+      "get": {
+        "tags": [
+          "objectinstance"
+        ],
+        "parameters": [
+          {
+            "name": "SearchPhrase",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectinstance/ModifyObjectClass": {
+      "post": {
+        "tags": [
+          "objectinstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModifyClass"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModifyClass"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModifyClass"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectstracture/CreateObjectAdmin": {
+      "post": {
+        "tags": [
+          "objectstracture"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesObject1"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesObject1"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MfilesObject1"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectstracture/DeleteObjectProps": {
+      "post": {
+        "tags": [
+          "objectstracture"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/prop5"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/prop5"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/prop5"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectstracture/DeleteObject/{ObjectID}/{VaultGuid}": {
+      "post": {
+        "tags": [
+          "objectstracture"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectstracture/GetObjectName/{ObjectID}/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "objectstracture"
+        ],
+        "parameters": [
+          {
+            "name": "ObjectID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/objectstracture/GetClassName/{ClassID}/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "objectstracture"
+        ],
+        "parameters": [
+          {
+            "name": "ClassID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectVersions/GetObjectVesions/{VaultGuid}/{ObjectId}/{ClassId}/{UserID}": {
+      "get": {
+        "tags": [
+          "ObjectVersions"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectVersions/GetObjectFileVersion/{VaultGuid}/{ObjectId}/{ObjectVersion}/{FileId}/{ClassId}/{UserID}": {
+      "get": {
+        "tags": [
+          "ObjectVersions"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ObjectVersion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "FileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ObjectVersions/RollbackToVersion": {
+      "post": {
+        "tags": [
+          "ObjectVersions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/postversion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/postversion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/postversion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SetAllProps/GetNewClassProps/{VaultGuid}/{ObjectId}/{ClassId}/{NewClassID}": {
+      "get": {
+        "tags": [
+          "SetAllProps"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "NewClassID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SetAllProps/GetTransitionClasses/{VaultGuid}/{ObjectId}/{ClassId}": {
+      "get": {
+        "tags": [
+          "SetAllProps"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SetAllProps": {
+      "post": {
+        "tags": [
+          "SetAllProps"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetUpdateProps"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetUpdateProps"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetUpdateProps"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Templates/GetClassTemplate/{VaultGuid}/{ClassID}": {
+      "get": {
+        "tags": [
+          "Templates"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Templates/GetTemplate/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "Templates"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Templates/GetClassTemplateProps/{VaultGuid}/{ClassID}/{ObjectId}/{UserID}": {
+      "get": {
+        "tags": [
+          "Templates"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ClassID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ObjectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Templates/ObjectCreation": {
+      "post": {
+        "tags": [
+          "Templates"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/template"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/template"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/template"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserAccounts/AddUser": {
+      "post": {
+        "tags": [
+          "UserAccounts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLogin"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLogin"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLogin"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserAccounts/RemoveVaultUser": {
+      "post": {
+        "tags": [
+          "UserAccounts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserAccounts/UpdateUser": {
+      "post": {
+        "tags": [
+          "UserAccounts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/remoaveuser"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserAccounts/SyncAccounts/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "UserAccounts"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserAccounts/DomainAuth": {
+      "post": {
+        "tags": [
+          "UserAccounts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ValuelistInstance/Search/{VaultGuid}/{Searchphrase}/{PropertyID}/{UserID}": {
+      "get": {
+        "tags": [
+          "ValuelistInstance"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PropertyID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Searchphrase",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ValuelistInstance/{VaultGuid}/{propertyid}/{UserID}": {
+      "get": {
+        "tags": [
+          "ValuelistInstance"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "propertyid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ValuelistInstance/AddValuelistItem": {
+      "post": {
+        "tags": [
+          "ValuelistInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValuelistPost"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValuelistPost"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValuelistPost"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vaults": {
+      "post": {
+        "tags": [
+          "Vaults"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaultClassp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaultClassp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VaultClassp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vaults/{CompanyName}": {
+      "get": {
+        "tags": [
+          "Vaults"
+        ],
+        "parameters": [
+          {
+            "name": "CompanyName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vaults/GetVaultGuid/{VaultGuid}": {
+      "get": {
+        "tags": [
+          "Vaults"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetViews/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "Views"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetViewObjects/{VaultGuid}/{viewid}/{ObjectIds}/{UserID}": {
+      "get": {
+        "tags": [
+          "Views"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "viewid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ObjectIds",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetObjectsInView": {
+      "get": {
+        "tags": [
+          "Views"
+        ],
+        "parameters": [
+          {
+            "name": "ViewId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "VaultGuid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetViewPropObjects": {
+      "post": {
+        "tags": [
+          "Views"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetpropertyContent"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetpropertyContent"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetpropertyContent"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetRecent/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "Views"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Views/GetAssigned/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "Views"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetVaultsWorkflows/{VaultGuid}/{UserID}": {
+      "get": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetVaultsObjectClassTypeWorkflows/{VaultGuid}/{UserID}/{ObjectTypeid}/{ClassTypeId}": {
+      "get": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ObjectTypeid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ClassTypeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetObjectInWorkflowStates/{VaultGuid}/{WorkflowId}/{StateId}/{UserID}": {
+      "get": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "parameters": [
+          {
+            "name": "VaultGuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "WorkflowId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StateId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "UserID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetObjectworkflowstate": {
+      "post": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetObjectworkflowAllstates": {
+      "post": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetObjectstates"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/SetObjectstate": {
+      "post": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectstates"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectstates"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectstates"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/SetObjectWorkflowstate": {
+      "post": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectWorkflowstates"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectWorkflowstates"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetObjectWorkflowstates"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkflowsInstance/GetworkflowAgeingReport": {
+      "post": {
+        "tags": [
+          "WorkflowsInstance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowAgeingReport"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowAgeingReport"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowAgeingReport"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApproveAssignment": {
+        "required": [
+          "approve",
+          "classId",
+          "objectId",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "approve": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CombinedMfilesCreate": {
+        "required": [
+          "objectId",
+          "oldClassID",
+          "oldObjectTypeID",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oldClassID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oldObjectTypeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Convertmodal": {
+        "required": [
+          "classId",
+          "fileID",
+          "objectId",
+          "overWriteOriginal",
+          "separateFile",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fileID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "overWriteOriginal": {
+            "type": "boolean"
+          },
+          "separateFile": {
+            "type": "boolean"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateLogin": {
+        "required": [
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "isAdmin": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetObjectstates": {
+        "required": [
+          "objectId",
+          "objectTypeId",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetpropertyContent": {
+        "required": [
+          "properties",
+          "userID",
+          "vaultGuid",
+          "viewId"
+        ],
+        "type": "object",
+        "properties": {
+          "viewId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/properties"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "MfilesCreate": {
+        "required": [
+          "classID",
+          "objectID",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Property1"
+            },
+            "nullable": true
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "uploadId": {
+            "type": "string",
+            "nullable": true
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MfilesObject1": {
+        "required": [
+          "objectName",
+          "properties",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "className": {
+            "type": "string",
+            "nullable": true
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/property4"
+            }
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ModifyClass": {
+        "required": [
+          "newClassID",
+          "objectID",
+          "objectTypeID",
+          "oldClassID",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectTypeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oldClassID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "newClassID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Property1"
+            },
+            "nullable": true
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObjectCheckoutmodel": {
+        "required": [
+          "objectid",
+          "objecttypeid",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objecttypeid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectid": {
+            "maximum": 1.7976931348623157E+308,
+            "minimum": 1E-07,
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "maximum": 1.7976931348623157E+308,
+            "minimum": 1E-07,
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Property1": {
+        "required": [
+          "propertytype",
+          "propId",
+          "value"
+        ],
+        "type": "object",
+        "properties": {
+          "value": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "displayValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "propId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "propertytype": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "propGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "alias": {
+            "type": "string",
+            "nullable": true
+          },
+          "propertyName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SetObjectWorkflowstates": {
+        "required": [
+          "objectId",
+          "objectTypeId",
+          "stateId",
+          "userID",
+          "vaultGuid",
+          "workflowId"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "workflowId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SetObjectstates": {
+        "required": [
+          "nextStateId",
+          "objectId",
+          "objectTypeId",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nextStateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SetUpdateProps": {
+        "required": [
+          "classid",
+          "newClassId",
+          "objectid",
+          "props",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "newClassId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "props": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/updateprop"
+            }
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateFile1": {
+        "required": [
+          "classId",
+          "fileid",
+          "objectid",
+          "signerEmail",
+          "userID",
+          "vaultGuid",
+          "versionID"
+        ],
+        "type": "object",
+        "properties": {
+          "objectid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fileid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "versionID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "signerEmail": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateObjectProps": {
+        "required": [
+          "classid",
+          "objectid",
+          "objectypeid",
+          "props",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectypeid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "props": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/updateprop"
+            }
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ValuelistPost": {
+        "required": [
+          "name",
+          "userID",
+          "valuelistID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "maximum": 1.7976931348623157E+308,
+            "minimum": 1E-07,
+            "type": "integer",
+            "format": "int32"
+          },
+          "valuelistID": {
+            "maximum": 1.7976931348623157E+308,
+            "minimum": 1E-07,
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VaultClassp": {
+        "type": "object",
+        "properties": {
+          "vaultName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkflowAgeingReport": {
+        "required": [
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "workflowId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "adminundelete": {
+        "required": [
+          "classId",
+          "objectId",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "deleteobject": {
+        "required": [
+          "classId",
+          "objectId",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "login": {
+        "required": [
+          "password",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "domain": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "postcomments": {
+        "required": [
+          "comment",
+          "objectId",
+          "objectTypeId",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "comment": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "postversion": {
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "objectId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "versionID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "prop": {
+        "type": "object",
+        "properties": {
+          "propid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "prop5": {
+        "required": [
+          "classid",
+          "objectid",
+          "propIds",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "propIds": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/prop"
+            }
+          },
+          "objectid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "properties": {
+        "required": [
+          "propDatatype",
+          "propId"
+        ],
+        "type": "object",
+        "properties": {
+          "propId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "propDatatype": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "property4": {
+        "required": [
+          "propertytype",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "isRequired": {
+            "type": "boolean"
+          },
+          "propertytype": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "remoaveuser": {
+        "type": "object",
+        "properties": {
+          "vaultGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "template": {
+        "required": [
+          "classID",
+          "objectID",
+          "objectTypeID",
+          "userID",
+          "vaultGuid"
+        ],
+        "type": "object",
+        "properties": {
+          "objectTypeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Property1"
+            },
+            "nullable": true
+          },
+          "vaultGuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "objectID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "updateprop": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "value": {
+            "type": "string",
+            "nullable": true
+          },
+          "datatype": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Comments"
+    },
+    {
+      "name": "ExternalObjects"
+    },
+    {
+      "name": "MfilesObjects"
+    },
+    {
+      "name": "ObjectCheckout"
+    },
+    {
+      "name": "ObjectDeletion"
+    },
+    {
+      "name": "objectinstance"
+    },
+    {
+      "name": "objectstracture"
+    },
+    {
+      "name": "ObjectVersions"
+    },
+    {
+      "name": "SetAllProps"
+    },
+    {
+      "name": "Templates"
+    },
+    {
+      "name": "UserAccounts"
+    },
+    {
+      "name": "ValuelistInstance"
+    },
+    {
+      "name": "Vaults"
+    },
+    {
+      "name": "Views"
+    },
+    {
+      "name": "WorkflowsInstance"
+    }
+  ]
+}

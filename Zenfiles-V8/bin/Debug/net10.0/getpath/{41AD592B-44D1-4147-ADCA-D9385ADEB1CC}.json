@@ -1,0 +1,3877 @@
+﻿{
+    "Rules": [
+        {
+            "Guid": "36e7cc7b-4f3e-408d-a0eb-a747b7461de3",
+            "Name": "WF.StudenAdmission-state1",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.1EvaluatorsFormAttachment"
+                            }
+                        }
+                    },
+                    {
+                        "Property": "38",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "workflow": "WF.StudentAdmission"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "eda5882f-4c51-4085-b0c4-9dd5ce46142f",
+            "Name": "WF.StudenAdmission-state1a",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.DepartmentalAdminSignature"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "IsHidden": true,
+                        "Property": "PD.DeanCommitteeApproval"
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "1cd59dfa-2184-44d8-9f57-5508c8b7529e",
+            "Name": "WF.StudenAdmission-state1a Decline",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.DepartmentalAdminSignature"
+                            }
+                        }
+                    },
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "AllowIndirect": true,
+                        "Operator": "IsNot",
+                        "SSLU": {
+                            "item": {
+                                "id": "{85E7EE77-7769-43BC-B802-AE8ABB92CF5F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": false,
+                        "IsRequired": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "5d909dc9-5377-4c2c-a534-bb4f6392d4a8",
+            "Name": "WF.StudenAdmission-state2",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.2ChairmanReview"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "fa1477df-8b5c-43b8-bb12-3237039ebea8",
+            "Name": "WF.StudenAdmission-state2 Decline",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.2ChairmanReview"
+                            }
+                        }
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "AllowIndirect": true,
+                        "Operator": "IsNot",
+                        "SSLU": {
+                            "item": {
+                                "id": "{85E7EE77-7769-43BC-B802-AE8ABB92CF5F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "da33083a-4d16-412a-a8d5-75fa8b7aeb53",
+            "Name": "WF.StudenAdmission-state3",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.3FacultyDeanReview"
+                            }
+                        }
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "id": "{85E7EE77-7769-43BC-B802-AE8ABB92CF5F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "8ec941bb-ad06-446d-ad20-aa8477ab3a6a",
+            "Name": "WF.StudenAdmission-state3 Decline",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.3FacultyDeanReview"
+                            }
+                        }
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "AllowIndirect": true,
+                        "Operator": "IsNot",
+                        "SSLU": {
+                            "item": {
+                                "id": "{85E7EE77-7769-43BC-B802-AE8ABB92CF5F}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "cd4c8cc4-b50d-40a2-82dd-82291524c83e",
+            "Name": "WF.StudenAdmission-state4",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.3AcademicRegistarReview"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsRequired": true,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DeanCommitteeApproval",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "542c446b-a28a-4a67-9a61-eee25e493b03",
+            "Name": "WF.StudenAdmission-state5",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.5aDeanCommittee"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsRequired": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "b9b16e05-251b-46bb-a256-5bb2437a3530",
+            "Name": "WF.StudentAdmission-state6",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.5DvcaaReview"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsRequired": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "f2d35772-7f9f-4690-b047-1d4d4b18ee76",
+            "Name": "WF.StudentAdmission-state6",
+            "Filter": {
+                "ObjectType": [
+                    "OT.AdmissionEvaluator"
+                ],
+                "Class": [
+                    "45"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StudentAdmission.7AdmissionLetters"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.FacultyAdministratorApproval",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.DepartmentAdminComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChairmanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ChairmanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.FacultyDeanComments",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AcademicRegistarReview",
+                        "IsRequired": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DvcAaApproval",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0827b36e-404e-48db-be25-7a5be4176b05",
+            "Name": "M&R - Hide MI Attached on MI Object",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "b46eb76e-a19b-4ef4-b2de-0c7ed65dc222",
+            "Name": "M&R - If Requester Type is Tenant",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1199",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "id": "{BB3ABBF2-129D-4A2A-BB78-BC01CA869630}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1261",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1039",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.Campus",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6a837a46-cc3f-4ca9-80a3-5c8f39d3e8ca",
+            "Name": "M&R - If Requester Type is Normal Staff",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1199",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "id": "{742B0C8E-B9DF-41CA-B03E-8F65BE1EFBC8}"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1205",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "9d35a03e-b374-4d9e-8736-645b55477c6b",
+            "Name": "M&R - Hide Props Assigned Foreman - Invoice Att on MI Object",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "8d98f7d8-8108-4129-b7cf-86df8b362c54",
+            "Name": "M&R - Hide Assigned Foreman - Invoice Att on State 0 + 1.a. Show MI Att",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": false,
+                        "IsReadOnly": true
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "38fdd908-902f-43bb-8a4d-eeb97cc535b9",
+            "Name": "M&R - Show Assigned Foreman, Technicians Assigned on State 1.b.",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.1ForwardedToMaintenance"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "1a765c26-ff37-4d49-b82a-c0ef9b02ff04",
+            "Name": "M&R - Show Site Status Schedule Attached? on State 2",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.2UnderAssessment"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "e3fd7299-c08d-47a4-b8d8-2b7046fc455a",
+            "Name": "M&R - Show Schedule & BoQ Attached? on State 3",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.3CostingInProgress"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "2878aae9-22ca-4dc8-ab77-6c12a3e53b1b",
+            "Name": "M&R - Show HOS FDMC Approval on State 4",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.4PendingHosReview"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "80df68e9-0463-400b-8ec9-806210c9b357",
+            "Name": "M&R - Show Dir Facility Approval on State 5",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.6PendingDirectorApproval"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "b9f2f17f-a386-4e3a-9323-9e5497facba3",
+            "Name": "M&R - Show Purchase Req Attached? on State 6",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.RequestSubmitted"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.SentToHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.6ProcurementProcessInitiated"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "287922f6-9f89-418f-8eeb-737d16db3d45",
+            "Name": "M&R - Hide Purchase Req Att on State 7, 7.a.",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.10RepairsInProgress"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MaintenanceRepairWorkflow.SentToMaintenanceOfficerForSigning"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "49c3dc92-3cca-44f7-b4c9-28739585cde6",
+            "Name": "M&R - Show Minutes Att & Inspection Approval on State 8, 8.a.",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "HasAny",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.11PendingUserInspection"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MaintenanceRepairWorkflow.SentToUserHodtenantForSigning"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "a2443301-95c6-42f1-bd2d-335ca48da0fd",
+            "Name": "M&R - Show Completion Cert & Invoice Attached on State 9",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.11PendingUserInspection"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MaintenanceRepairWorkflow.SentToUserHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.12CompletionCertificateIssued"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": true,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": false
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "1d661f66-16c7-4fb1-8768-34761411e96e",
+            "Name": "M&R - Show All Props on State 10",
+            "Filter": {
+                "ObjectType": [
+                    "OT.MaintenanceInstruction"
+                ],
+                "Class": [
+                    "2"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "state": "WFS.MainenanceRepairWorkflow.11PendingUserInspection"
+                                }
+                            },
+                            {
+                                "item": {
+                                    "state": "WFS.MaintenanceRepairWorkflow.SentToUserHodtenantForSigning"
+                                }
+                            }
+                        ],
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.MainenanceRepairWorkflow.13PaymentProcessing"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.MiFormAttached",
+                        "IsHidden": false,
+                        "IsReadOnly": false
+                    },
+                    {
+                        "Property": "PD.MaintenanceForeman",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TechniciansAssigned",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.JobNo",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ForemanAction",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MaterialsCost",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TransportHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.LabourHours",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.OverheadPercentage",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.TotalEstimatedCostKes",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.SiteStatusScheduleAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ScheduleOfMaterialsLabourAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BoqAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.HosApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.DirFacilityMgtApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.PurchaseRequisitionAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.MinutesAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InspectionCommitteeApproval",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.CompletionCertificateAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InvoiceAttached",
+                        "IsHidden": false
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "44698ed2-e4fc-4d47-b300-5dd2a94f8ee5",
+            "Name": "WF.House Application State0",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TenancyAllocationLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "9fe9218a-0a48-4fb5-9b2e-a42c14790140",
+            "Name": "WF.House Application State1",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.1HouseApplication"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "d7ec4fc2-883d-4776-ad03-7ca436046ae1",
+            "Name": "WF.House Application State2",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.2AttachApplicationForm"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TenancyAllocationLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6e647710-f720-4c93-a07c-359ddeb0daef",
+            "Name": "WF.House Application State3",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.2PendingReview"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TenancyAllocationLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "d2966c60-55e5-4137-98c3-5b70aaa970fe",
+            "Name": "WF.House Application State4",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.4AllocationOfferIssue"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.TenancyAllocationLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true,
+                        "IsRequired": false
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ebfb1f9a-8f74-46b2-b834-f3cf5180975b",
+            "Name": "WF.House Application State5",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.3ApplicantResponse"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "eea93c17-ab50-460b-90cd-a2827308c26f",
+            "Name": "WF.House Application State6",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.4AttachIntroductionLetter"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "e8620efd-296c-46c1-a685-de44c9887312",
+            "Name": "WF.House Application State7",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.5CheckIn"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "8f96237a-6873-4ce8-b084-adc3cb3c1d5f",
+            "Name": "WF.House Application State8",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.6StartRentDeduction"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "ae9486c0-31e3-4110-a3f0-487594d59f28",
+            "Name": "WF.House Application State9",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.9RentDeduction"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "482f50c4-9059-4218-b80a-0e2876148375",
+            "Name": "WF.House Application State10",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.10aHouseOccupied"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "6e877da5-f9da-46fc-be13-93709fd43271",
+            "Name": "WF.House Application State11",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.7Vaccate"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "a8ec6182-0dcb-40e4-b7ad-8bf43b5d0328",
+            "Name": "WF.House Application State12",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseApplication"
+                ],
+                "Class": [
+                    "17"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HouseApplication.8CheckoutForm"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.HouseApplicationId",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AllocationDecision",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApprovalCategory2",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.IntroductionLetterAttached",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.CheckinFormFilled",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HmaAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.RentActivation",
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.RentDeactivation",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "f1f7c97d-7b30-464b-a8d5-eb9caab1fd90",
+            "Name": "SDP - Hide Most Props on Disciplinary Case Object",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "IsNULL"
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ChargeSheetAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.VcApproval",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "fd808636-9895-4346-9c54-d566757fed57",
+            "Name": "SDP - Show 'Evidence Attached' on State 0",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StaffDisciplinaryProcess.IncidentReported"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "c49aaaa4-8a43-417a-a53f-13a0c7ac3f98",
+            "Name": "SDP - If VC Action is 'Suspended'",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "1286",
+                        "Operator": "Is",
+                        "MSLU": [
+                            {
+                                "item": {
+                                    "id": "{1D46798C-10C4-4BCC-9AE3-1478336141D3}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "1288",
+                        "IsHidden": false
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0a46b077-4b45-442b-bd51-5088a83cb72f",
+            "Name": "SDP - Show 'Briefing Date', 'Venue', 'Internal Memo' on State 1",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StaffDisciplinaryProcess.PendingHodReview"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "a79ea1f5-7710-4925-823b-c4266531f79e",
+            "Name": "SDP - Show 'VC Action', 'Duration of Suspension' on State 2",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StaffDisciplinaryProcess.AwaitingStaffResponse"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ChargeSheetAttached",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.VcApproval",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "5c4ce074-bbb5-4cb8-93a1-ef7ca3a40f5f",
+            "Name": "SDP - Show 'Charge Sheet Attached' on State 3",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StaffDisciplinaryProcess.SmaSubmittedToFinance"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ChargeSheetAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.VcApproval",
+                        "IsHidden": true
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "20ba7345-ee94-446b-86bb-9a3409f8ced9",
+            "Name": "SDP - Show 'VC Approval' on State 4",
+            "Filter": {
+                "ObjectType": [
+                    "OT.DisciplinaryCase"
+                ],
+                "Class": [
+                    "5"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.StaffDisciplinaryProcess.ResponseReceivedUnderReview"
+                            }
+                        }
+                    }
+                ],
+                "ObjectTypeOperator": "IsAnyOf"
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.EvidenceAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.BriefingDate",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Venue",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.InternalMemoAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1286",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "1288",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.ChargeSheetAttached",
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.VcApproval",
+                        "IsHidden": false
+                    }
+                ]
+            },
+            "SubRules": []
+        },
+        {
+            "Guid": "4ed77a2d-81e7-4e15-9be3-76d4dfd18cfb",
+            "Name": "WF.House Allocation State0",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "fbed6279-e19c-4bb8-8c87-4922db516273",
+            "Name": "WF.House Allocation State1",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HousingAllocation.1GenerateListOfApplicants"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "298fed3b-d604-4b08-a258-66b5f1f9e0a0",
+            "Name": "WF.House Allocation State2",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HousingAllocation.1CreateShortlistingForm"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "c8825d23-edf5-4b3b-9f20-019c3e7ade0e",
+            "Name": "WF.House Allocation State3",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HousingAllocation.3CreateShortlistedApplicants"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "0521f174-301d-444d-ac9f-b2bb5df7a01e",
+            "Name": "WF.House Allocation State4",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HousingAllocation.2HacReview"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "17294d5c-74c2-47b3-8f2e-c82cc515b41a",
+            "Name": "WF.House Allocation State5 Nofity Applicants",
+            "Filter": {
+                "ObjectType": [
+                    "OT.HouseAllocation"
+                ],
+                "Class": [
+                    "61"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.HousingAllocation.4NotifyApplicants"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.ApplicantsListGenerated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.PointsAllocated",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.AttachShortlistedApplicants",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.HacReview",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.ApplicantsNotified",
+                        "IsHidden": false,
+                        "IsRequired": true
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "c5baeb19-e938-419d-8f48-3fd7ad273948",
+            "Name": "WF. Ad-hoc State IS NULL",
+            "Filter": {
+                "ObjectType": [
+                    "0"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "IsNULL"
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.SendForReviewApprovalOptional",
+                        "IsHidden": true
+                    },
+                    {
+                        "Property": "PD.Originator",
+                        "IsReadOnly": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Stakeholders",
+                        "IsReadOnly": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.NextStep",
+                        "IsHidden": false
+                    }
+                ]
+            }
+        },
+        {
+            "Guid": "76018cec-e2d2-42fe-b9a4-0fa46b907913",
+            "Name": "WF. Ad-hoc State Action",
+            "Filter": {
+                "ObjectType": [
+                    "0"
+                ],
+                "Properties": [
+                    {
+                        "Property": "39",
+                        "AllowIndirect": true,
+                        "Operator": "Is",
+                        "SSLU": {
+                            "item": {
+                                "state": "WFS.Adhoc.2Action"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Behavior": {
+                "Properties": [
+                    {
+                        "Property": "PD.SendForReviewApprovalOptional",
+                        "IsHidden": false,
+                        "IsRequired": false
+                    },
+                    {
+                        "Property": "PD.Originator",
+                        "IsReadOnly": false,
+                        "IsHidden": false
+                    },
+                    {
+                        "Property": "PD.Stakeholders",
+                        "IsReadOnly": false,
+                        "IsHidden": false
+                    }
+                ]
+            }
+        }
+    ],
+    "PropertyGroups": [],
+    "Version": "1.1"
+}

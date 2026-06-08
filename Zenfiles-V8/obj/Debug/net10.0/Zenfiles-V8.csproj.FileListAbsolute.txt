@@ -1,0 +1,551 @@
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.AssemblyReference.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfoInputs.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfo.cs
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.CoreCompileInputs.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\deletedObjects\deleted.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.staticwebassets.endpoints.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.exe
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.deps.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.runtimeconfig.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\BitMiracle.LibTiff.NET.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\RestSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Compression.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Licensing.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Imaging.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Interop.MFilesAPI.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.ResolveComReference.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\scopedcss\bundle\Zenfiles-V8.styles.css
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles.4C5869BA.Up2Date
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\refint\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.genruntimeconfig.cache
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\ref\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.sourcelink.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.HarfBuzz.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIO.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.MetafileRenderer.NET.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.OfficeChart.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Presentation.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.PresentationRenderer.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.SkiaSharpHelper.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIO.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.IO.Packaging.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\fbclient.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\ib_util.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63l.dat
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuin63.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuuc63.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.conf
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\msvcp140.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\plugins\engine13.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\ids.dat
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\metaZones.res
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\timezoneTypes.res
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\windowsZones.res
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\zoneinfo64.res
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140_1.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\zlib1.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\LICENSESV5.zip
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdDb.Embedded.NativeAssetManager.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.EntityFrameworkCore.Firebird.dll
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\deletedObjects\deleted.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{165CC286-83B7-413C-9A16-8886587E91C4}.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{5F877C06-DC47-4DCE-8290-EF86312FC6FB}.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{762CE132-A8F4-40E9-B19E-3ACC913E2945}.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{76387C0F-2949-496B-A1F6-ED6ABAE6C5FD}.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\fbclient.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\ib_util.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63l.dat
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuin63.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuuc63.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.conf
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\msvcp140.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\plugins\engine13.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\ids.dat
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\metaZones.res
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\timezoneTypes.res
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\windowsZones.res
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\zoneinfo64.res
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140_1.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\zlib1.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\LICENSESV5.zip
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.staticwebassets.endpoints.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.exe
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.deps.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.runtimeconfig.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\BitMiracle.LibTiff.NET.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdDb.Embedded.NativeAssetManager.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.EntityFrameworkCore.Firebird.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\RestSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.HarfBuzz.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Compression.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIO.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Licensing.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.MetafileRenderer.NET.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.OfficeChart.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Imaging.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Presentation.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.PresentationRenderer.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.SkiaSharpHelper.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIO.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.IO.Packaging.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.AssemblyReference.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Interop.MFilesAPI.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.ResolveComReference.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfoInputs.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfo.cs
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.CoreCompileInputs.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.sourcelink.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\scopedcss\bundle\Zenfiles-V8.styles.css
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles.4C5869BA.Up2Date
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\refint\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.genruntimeconfig.cache
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\ref\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.AssemblyReference.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Interop.MFilesAPI.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.ResolveComReference.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfoInputs.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.AssemblyInfo.cs
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.csproj.CoreCompileInputs.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.sourcelink.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\refint\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\appsettings.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\deletedObjects\deleted.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{165CC286-83B7-413C-9A16-8886587E91C4}.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{5F877C06-DC47-4DCE-8290-EF86312FC6FB}.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{762CE132-A8F4-40E9-B19E-3ACC913E2945}.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{76387C0F-2949-496B-A1F6-ED6ABAE6C5FD}.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\fbclient.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\ib_util.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icudt63l.dat
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuin63.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\icuuc63.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.conf
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\intl\fbintl.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\msvcp140.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\plugins\engine13.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\ids.dat
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\metaZones.res
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\timezoneTypes.res
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\windowsZones.res
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\tzdata\zoneinfo64.res
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\vcruntime140_1.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\win-x64\V5\zlib1.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\firebird\LICENSESV5.zip
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.staticwebassets.endpoints.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.exe
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.deps.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.runtimeconfig.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Zenfiles-V8.pdb
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\BitMiracle.LibTiff.NET.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdDb.Embedded.NativeAssetManager.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\FirebirdSql.EntityFrameworkCore.Firebird.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\HarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\RestSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\SkiaSharp.HarfBuzz.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Compression.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIO.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.DocIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Licensing.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.MetafileRenderer.NET.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.OfficeChart.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Imaging.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Pdf.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.Presentation.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.PresentationRenderer.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.SkiaSharpHelper.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIO.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Syncfusion.XlsIORenderer.Portable.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\System.IO.Packaging.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\scopedcss\bundle\Zenfiles-V8.styles.css
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles.4C5869BA.Up2Date
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\Zenfiles-V8.genruntimeconfig.cache
+C:\Users\Mathews\Desktop\New folder\waica alignsys\Zenfiles-V8\Zenfiles-V8\obj\Debug\net10.0\ref\Zenfiles-V8.dll
+C:\Users\Mathews\Desktop\waica alignsys\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Files\taskitems.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\Files\taskitems.json
+C:\Users\Mathews\Desktop\Zenfiles-V8\Zenfiles-V8\bin\Debug\net10.0\getpath\{41AD592B-44D1-4147-ADCA-D9385ADEB1CC}.json
