@@ -82,20 +82,20 @@ namespace Zenfiles.PermissionService
                                     if (aceData != null)
                                     {
                                         
-                                            if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "")))
+                                            if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                             {
                                                 userPermission.ReadPermission = true;
                                             }
-                                            if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.EditPermission && (aceData.EditPermission.ToString() == "")))
+                                            if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.EditPermission && (aceData.EditPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                             {
                                                 userPermission.EditPermission = true;
                                             }
-                                            if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "")))
+                                            if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow"))|| (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                             {
 
                                                 userPermission.AttachObjectsPermission = true;
                                             }
-                                            if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow"))|| (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "")))
+                                            if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow"))|| (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                             {
                                                 userPermission.DeletePermission = true;
                                             }
@@ -224,20 +224,20 @@ namespace Zenfiles.PermissionService
                             AccessControlEntryData aceData = accessControlEntry.At(aceKey);
                             if (aceData != null)
                             {
-                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "")))
+                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.ReadPermission = true;
                                     }
-                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() == "")))
+                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() == MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.EditPermission = true;
                                     }
-                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "")))
+                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
 
                                         userPermission.AttachObjectsPermission = true;
                                     }
-                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "")))
+                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.DeletePermission = true;
                                     }
@@ -359,20 +359,20 @@ namespace Zenfiles.PermissionService
                             AccessControlEntryData aceData = accessControlEntry.At(aceKey);
                             if (aceData != null)
                             {
-                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "")))
+                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.ReadPermission = true;
                                     }
-                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() == "")))
+                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.EditPermission = true;
                                     }
-                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "")))
+                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
 
                                         userPermission.AttachObjectsPermission = true;
                                     }
-                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "")))
+                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.DeletePermission = true;
                                     }
@@ -492,20 +492,20 @@ namespace Zenfiles.PermissionService
                             AccessControlEntryData aceData = accessControlEntry.At(aceKey);
                             if (aceData != null)
                             {
-                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "")))
+                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.ReadPermission = true;
                                     }
-                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() == "")))
+                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.EditPermission = true;
                                     }
-                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "")))
+                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
 
                                         userPermission.AttachObjectsPermission = true;
                                     }
-                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "")))
+                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.DeletePermission = true;
                                     }
@@ -626,20 +626,20 @@ namespace Zenfiles.PermissionService
                             AccessControlEntryData aceData = accessControlEntry.At(aceKey);
                             if (aceData != null)
                             {
-                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "")))
+                                    if ((!userPermission.ReadPermission && (aceData.ReadPermission.ToString() == "MFPermissionAllow")) || (!userPermission.ReadPermission && (aceData.ReadPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.ReadPermission = true;
                                     }
-                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() == "")))
+                                    if ((!userPermission.EditPermission && (aceData.EditPermission.ToString() == "MFPermissionAllow")) || (!userPermission.EditPermission && (aceData.EditPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.EditPermission = true;
                                     }
-                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "")))
+                                    if ((!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() == "MFPermissionAllow")) || (!userPermission.AttachObjectsPermission && (aceData.AttachObjectsPermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
 
                                         userPermission.AttachObjectsPermission = true;
                                     }
-                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "")))
+                                    if ((!userPermission.DeletePermission && (aceData.DeletePermission.ToString() == "MFPermissionAllow")) || (!userPermission.DeletePermission && (aceData.DeletePermission.ToString() ==MFilesAPI.MFPermission.MFPermissionNotSet.ToString())))
                                     {
                                         userPermission.DeletePermission = true;
                                     }

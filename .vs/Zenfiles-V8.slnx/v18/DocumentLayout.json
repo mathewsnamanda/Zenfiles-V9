@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\objectinstancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\mfilesobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\mfilesobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\permissionservice\\userperm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\permissionservice\\userperm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\objectstracturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\objectstracturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\viewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MfilesObjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
+              "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
+              "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
+              "RelativeToolTip": "Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T05:24:44.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "objectstractureController.cs",
+              "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectstractureController.cs",
+              "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\objectstractureController.cs",
+              "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectstractureController.cs",
+              "RelativeToolTip": "Zenfiles-V8\\Controllers\\objectstractureController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T05:24:40.574Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +66,14 @@
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\objectinstanceController.cs",
               "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectinstanceController.cs",
               "RelativeToolTip": "Zenfiles-V8\\Controllers\\objectinstanceController.cs",
-              "ViewState": "AgIAAMgVAAAAAAAAAAAawNQVAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAHgLAAAAAAAAAAAowIkLAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T12:15:56.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ViewsController.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\ViewsController.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\ViewsController.cs",
@@ -58,7 +92,7 @@
               "RelativeDocumentMoniker": "Zenfiles-V8\\PermissionService\\UserPerm.cs",
               "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\PermissionService\\UserPerm.cs",
               "RelativeToolTip": "Zenfiles-V8\\PermissionService\\UserPerm.cs",
-              "ViewState": "AgIAAGsCAAAAAAAAAAAswIUCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOcBAAAAAAAAAAAowO4BAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T12:06:19.109Z",
               "EditorCaption": ""
