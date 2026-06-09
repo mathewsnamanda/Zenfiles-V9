@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\templatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\templatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|c:\\users\\mathews\\desktop\\zenfiles-v8\\zenfiles-v8\\controllers\\objectinstancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66A14CE7-0D95-EF94-1B33-2E56466D6309}|Zenfiles-V8\\Zenfiles-V8.csproj|solutionrelative:zenfiles-v8\\controllers\\objectinstancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "TemplatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\TemplatesController.cs",
+              "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\TemplatesController.cs",
+              "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\TemplatesController.cs",
+              "RelativeToolTip": "Zenfiles-V8\\Controllers\\TemplatesController.cs",
+              "ViewState": "AgIAAPMBAAAAAAAAAAAowAoCAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T17:55:42.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MfilesObjectsController.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\MfilesObjectsController.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "objectstractureController.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectstractureController.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\objectstractureController.cs",
@@ -60,20 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "objectinstanceController.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectinstanceController.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\objectinstanceController.cs",
               "ToolTip": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\objectinstanceController.cs",
               "RelativeToolTip": "Zenfiles-V8\\Controllers\\objectinstanceController.cs",
-              "ViewState": "AgIAAHgLAAAAAAAAAAAowIkLAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkLAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T12:15:56.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ViewsController.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\Controllers\\ViewsController.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\Controllers\\ViewsController.cs",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserPerm.cs",
               "DocumentMoniker": "C:\\Users\\Mathews\\Desktop\\Zenfiles-V8\\Zenfiles-V8\\PermissionService\\UserPerm.cs",
               "RelativeDocumentMoniker": "Zenfiles-V8\\PermissionService\\UserPerm.cs",

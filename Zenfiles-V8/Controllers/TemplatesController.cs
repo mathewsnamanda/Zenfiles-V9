@@ -421,16 +421,18 @@ namespace Zenfiles.Controllers
                                         classname = propertyValueForDisplay.PropertyValue.Value.DisplayValue;
                                     }
                                 }
-                                var objectt = vault.ObjectTypeOperations.GetObjectType(objectVersion.ObjVer.Type);
+                                var objectt = _cacheObjects.GetObjectTypes(vault)?.FirstOrDefault(m=>m.ObjectType.ID== objectVersion.ObjVer.Type);
                                 objectsearchresponse.ClassTypeName = classname;
-                                objectsearchresponse.ObjectTypeName = objectt.NameSingular;
+                                if(objectt != null)
+                                objectsearchresponse.ObjectTypeName = objectt.ObjectType.NameSingular;
                             }
                             catch
                             {
 
                             }
-                            var propertiespdf = vault.ClassOperations.GetObjectClass(objectVersion.Class).AssociatedPropertyDefs;
+                            var propertiespdf = _cacheObjects.ClassTypes(vault)?.FirstOrDefault(m => m.ID == objectVersion.Class)?.AssociatedPropertyDefs;
                                 List<templateints> ints = new List<templateints>();
+                                if(propertiespdf != null)
                                 foreach (AssociatedPropertyDef associatedPropertyDef in propertiespdf)
                                 {   
                                     ints.Add(new templateints { propid= associatedPropertyDef .PropertyDef, isrequired= associatedPropertyDef .Required});
@@ -463,56 +465,69 @@ namespace Zenfiles.Controllers
                                 {
                                   
                                     {
-                                        var property = vault.PropertyDefOperations.GetPropertyDefAdmin(properties.PropertyDef);
-                                        if (property.PropertyDef.AutomaticValueType.ToString() == "MFAutomaticValueTypeNone")
-                                        {
-                                            var prop = props.FirstOrDefault(m => m.propId == properties.PropertyDef);
-                                            if (prop == null)
-                                            {
-                                                var perm = _permission.PropPermission(vault, UserID, properties.PropertyDef);
-                                                if (perm.ReadPermission)
-                                                {
-                                                    props.Add(new properties5 { propId = int.Parse(properties.PropertyDef.ToString()), propertytype = properties.DataType.ToString(), title = properties.PropertyDefName, Value = properties.DisplayValue, IsHidden = false, IsRequired = false, IsAutomatic = false, userPermission=perm, PropGuid=property.PropertyDef.GUID, Alias=property.SemanticAliases.Value });
-                                                }
-                                            }
-                                        }
-                                        else
-                                        {
-                                            var prop = props.FirstOrDefault(m => m.propId == properties.PropertyDef);
-                                            if (prop == null)
-                                            {
-                                                var perm = _permission.PropPermission(vault, UserID, properties.PropertyDef);
-                                                if (perm.ReadPermission)
-                                                {
+                                    var property = _cacheObjects.PropTypes(vault)?.FirstOrDefault(m=>m.PropertyDef.ID== properties.PropertyDef);
+                                    try
+                                    {
 
-                                                    props.Add(new properties5 { propId = int.Parse(properties.PropertyDef.ToString()), propertytype = properties.DataType.ToString(), title = properties.PropertyDefName, Value = properties.DisplayValue, IsHidden = false, IsRequired = false, IsAutomatic = true, userPermission= perm, PropGuid=property.PropertyDef.GUID, Alias = property.SemanticAliases.Value });
-                                                }
-                                            }
-                                        }
-                                        if (properties.DataType == MFDataType.MFDatatypeLookup)
+                                        if (property != null)
                                         {
-                                            var workflow = vault.ObjectPropertyOperations.GetProperty(objectVersion.ObjVer, properties.PropertyDef);
-                                            var itemr = workflow.Value.GetValueAsLookups();
-                                            if (itemr.Count > 0)
+                                            if (property.PropertyDef.AutomaticValueType.ToString() == "MFAutomaticValueTypeNone")
                                             {
-                                                foreach (Lookup lookup in itemr)
+                                                var prop = props.FirstOrDefault(m => m.propId == properties.PropertyDef);
+                                                if (prop == null)
                                                 {
-                                                    workflowstatepropbehave.Add(new readingmetaconfigjson.MetaModals.workflowstatepropbehave { propid = properties.PropertyDef.ToString(), workflowstateguid = lookup.ItemGUID, workflowstateid = lookup.Item.ToString(), workflowstatealias = "" });
+                                                    var perm = _permission.PropPermission(vault, UserID, properties.PropertyDef);
+                                                    if (perm.ReadPermission)
+                                                    {
+                                                        props.Add(new properties5 { propId = int.Parse(properties.PropertyDef.ToString()), propertytype = properties.DataType.ToString(), title = properties.PropertyDefName, Value = properties.DisplayValue, IsHidden = false, IsRequired = false, IsAutomatic = false, userPermission = perm, PropGuid = property.PropertyDef.GUID, Alias = property.SemanticAliases.Value });
+                                                    }
                                                 }
                                             }
                                             else
                                             {
-                                                workflowstatepropbehave.Add(new readingmetaconfigjson.MetaModals.workflowstatepropbehave { propid = properties.PropertyDef.ToString(), workflowstateguid = "", workflowstateid = "", workflowstatealias = "" });
+                                                var prop = props.FirstOrDefault(m => m.propId == properties.PropertyDef);
+                                                if (prop == null)
+                                                {
+                                                    var perm = _permission.PropPermission(vault, UserID, properties.PropertyDef);
+                                                    if (perm.ReadPermission)
+                                                    {
+
+                                                        props.Add(new properties5 { propId = int.Parse(properties.PropertyDef.ToString()), propertytype = properties.DataType.ToString(), title = properties.PropertyDefName, Value = properties.DisplayValue, IsHidden = false, IsRequired = false, IsAutomatic = true, userPermission = perm, PropGuid = property.PropertyDef.GUID, Alias = property.SemanticAliases.Value });
+                                                    }
+                                                }
+                                            }
+                                            if (properties.DataType == MFDataType.MFDatatypeLookup)
+                                            {
+                                                var workflow = vault.ObjectPropertyOperations.GetProperty(objectVersion.ObjVer, properties.PropertyDef);
+                                                var itemr = workflow.Value.GetValueAsLookups();
+                                                if (itemr.Count > 0)
+                                                {
+                                                    foreach (Lookup lookup in itemr)
+                                                    {
+                                                        workflowstatepropbehave.Add(new readingmetaconfigjson.MetaModals.workflowstatepropbehave { propid = properties.PropertyDef.ToString(), workflowstateguid = lookup.ItemGUID, workflowstateid = lookup.Item.ToString(), workflowstatealias = "" });
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    workflowstatepropbehave.Add(new readingmetaconfigjson.MetaModals.workflowstatepropbehave { propid = properties.PropertyDef.ToString(), workflowstateguid = "", workflowstateid = "", workflowstatealias = "" });
+
+                                                }
 
                                             }
-
                                         }
                                     }
+                                    catch
+                                    {
+                                        props.Add(new properties5 { propId = int.Parse(properties.PropertyDef.ToString()), propertytype = properties.DataType.ToString(), title = properties.PropertyDefName, Value = properties.DisplayValue, IsHidden = false, IsRequired = false, IsAutomatic = false, userPermission = new UserPermission { AttachObjectsPermission = false, DeletePermission = false, EditPermission = false, IsClassDeleted = false, ReadPermission = true }, PropGuid = property.PropertyDef.GUID, Alias = property.SemanticAliases.Value });
+
+                                    }
+
+                                }
                                 
 
 
                                 };
-                                IMeta meta = new MetaImplement();
+                            IMeta meta = new MetaImplement();
                             var classsp = _cacheObjects.ClassTypes(vault)?.FirstOrDefault(m => m.ID == objectVersion.Class);
                             var tpp = _cacheObjects.GetObjectTypes(vault)?.FirstOrDefault(m => m.ObjectType.ID == classsp.ObjectType);
                             if (classsp != null && tpp != null)

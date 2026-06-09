@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zenfiles-V8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+087867b74f2df3ab79b72675e5767cd6e371f4c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b24a4a03b4a3d06f1789ebc6d093e9f83136654b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zenfiles-V8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zenfiles-V8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
